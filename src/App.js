@@ -1,7 +1,8 @@
 import "./App.css";
 // import Parent from "./Components/Parent";
 // for counter app
-import Counter from "./Components Buttons/Counter";
+// import Counter from "./Components Buttons/Counter";
+import Counter1 from "./Conuter App/Counter1";
 
 function App() {
   let Sampledata = {
@@ -15,12 +16,13 @@ function App() {
   return (
     <div className="App">
       {/* <Parent></Parent> */}
-      <Counter
+      {/* <Counter
         Sampledata={Sampledata}
         Sampledata1={Sampledata1}
         Sampledata2={Sampledata2}
         Sampledata3={Sampledata3}
-      ></Counter>
+      ></Counter> */}
+      <Counter1></Counter1>
     </div>
   );
 }
