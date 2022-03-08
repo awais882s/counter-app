@@ -6,12 +6,12 @@ function Counter1() {
   const [age, setAge] = useState(18);
   const [price, setPrice] = useState(34.45);
   const incrementHandler = () => {
-    counter++;
+    // counter++;
     // alert("Increment" + counter);
     setCounter(counter2 + 1);
   };
   const decrementHandler = () => {
-    counter--;
+    // counter--;
     // alert("Decrement" + counter);
     setCounter(counter2 - 1);
   };
